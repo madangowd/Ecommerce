@@ -6,7 +6,7 @@
         <mat-select (valueChange)="sendCurreny($event)" class="text-sm" [(ngModel)]="selectCurrency" >
             <mat-option selected value="INR" >INR</mat-option>
             <mat-option value="USD">USD</mat-option>
-            <button class="btn btn-primary" mat-flat-button color="primary">Primary</button>
+
            <button (click)="back()" class="btn btnn btn-warning" mat-flat-button color="warning">Back</button>
         </mat-select>
       </mat-form-field>
