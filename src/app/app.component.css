@@ -1,0 +1,31 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+/* app.component.css */
+.mat-toolbar {
+    background-color: #212151; /* Light green color */
+    color: white; /* Text color */
+    height: 55px;
+  }
+ .mat-select{
+    color:tomato;
+ } 
+ .mat-option{
+    background-color: #3f51b5;
+ }
+ .mat-option:hover{
+    background-color: #FF4E88;
+ }
+
+ .btn{
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+ }
+ .btn:hover{
+    background-color: #FF9800;
+ }
+
+ .btnn:hover{
+    background-color: #BBE2EC;
+ }
