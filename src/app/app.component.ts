@@ -16,5 +16,7 @@ export class AppComponent {
     console.log(event);
     this.currencyService.setCurrency(event);
   }
-
+  back(){
+    this.routes.navigate(['coin-list'])
+  }
 }
